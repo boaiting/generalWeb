@@ -7,12 +7,12 @@ import javax.persistence.Table;
 
 import org.hibernate.validator.constraints.NotBlank;
 
-//JPA标识
+//JPA标识test
 @Entity
 @Table(name = "SS_TASK")
 public class Task extends IdEntity {
 
-	private String title;
+	private String titlee;
 	private String description;
 	private User user;
 
